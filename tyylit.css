@@ -1,0 +1,339 @@
+body{
+    font-family: "Georgia", sans-serif;
+    background: white none; color: black;
+    margin: 0;
+  }
+  .navbar{
+    background-color: #de87c2;
+    width: 100%;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .navbar ul{
+   
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .navbar li{
+    float: left;
+    padding-top: 0%;
+    padding-left: 0.5em;
+  }
+  .navbar a{
+    display: block;
+  }
+  
+  /*rightbar alku*/
+.rightbar{
+    background-color: #de87c2;
+    border-collapse: collapse;
+    border: 0.4em solid #74034a;
+    width: 18%;
+    float:right;
+    margin:0.4em;
+    display: flex;
+  }
+ 
+  ul.rightbar_eka{
+    margin: 0;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    list-style-position: inside;
+  }
+  ul.rightbar_toka{
+    list-style-position: outside;
+    list-style-type: circle;
+  }
+  /*rightbar loppu*/
+
+  .content {
+    margin-top: 5%;
+  }
+
+  /*EtusivuKuvan alku*/
+.etusivuKuva{
+    float:left;
+    font-weight: bold;
+    text-align: center;
+  
+  }
+  .etusivuKuva img{
+    margin-left: 4%;
+    margin-top: 4%;
+    width: 50%;
+    height: auto;
+  
+  }
+  .etusivuKuva p{
+    margin-top: 0;
+    margin-bottom: 4%;
+    margin-left: 0%;
+  }
+  /*EtusivuKuvan loppu*/
+  .clear{
+    clear:left;
+  }
+  /*footer alku*/
+  .footer{
+    background-color: #de87c2;
+    width: 100%; height: 1em;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
+    bottom: 0%;
+    left: 0%;
+    margin-bottom: 1em;
+  }
+  .link {
+    padding-left: 0.4em;
+    float: left;
+  }
+  .author{
+    float: right;
+    padding-right: 0.4em;
+  }
+  /*footer loppu*/  
+
+  /*Mauris sivun taulukon Alku*/
+.taulukko{
+    margin-left: 5em;
+  }
+  table {
+    border-collapse: collapse;
+    border: 1px dotted #74034a;
+    width: 25%;
+  }
+  
+  td, th {
+    border: 0.10em dotted #74034a;
+    padding: 0.5em;
+    text-align: left;
+    text-align: center;
+  }
+  /*Mauris sivun taulukon loppu*/
+
+  /* diam*/
+.sidebar {
+    background: #de87c2;
+    width: 15%; 
+    height: 132em;
+    float: left;
+    margin: 2em 0em 1em 0em;
+    right: 0%;
+    
+  }
+  ul.sidebar_eka{
+    margin: 0;
+    padding : 0.5em 0em 0.5em 0.5em;
+    list-style-position: inside;
+  }
+  ul.sidebar_toka{
+    list-style: circle outside;
+    
+  }
+  .vasen {
+    padding-top: 1.5em;
+    float: left;
+    width: 85%;
+  }
+  .vasen iframe{
+    margin-bottom: 1em;
+    min-width: 560px;
+    min-height: 314px;
+  
+  }
+  .vasen video{
+    width: 100%;
+    height: 100%;
+    
+  }
+  #author{
+    float:right;
+    margin-right: 15%;
+  }
+  .search-container button {
+    float: left;
+    cursor: pointer;
+    margin-left: 0%;
+  
+  }
+  .search-container {
+    float: left;
+  }
+  
+  .search-container input[type=text] {
+    float: left;
+    margin-left: 0%;
+    width: 60%;
+  }
+  
+
+  /*dui sivun kuvagallerin Alku*/
+ .kuvatLaatikko{
+    display: grid;
+    flex-flow: row wrap;
+    text-align: center;
+    font-weight: bold;
+    grid-template-rows: 25% 25% 25%;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1%;
+    column-gap: 1%;
+  
+  }
+  .kuvatLaatikko img{
+    margin-left: 2em;
+    margin-top: 1.5em;
+    width: 75%;
+    height: 75%;
+  }
+  .duikuvat p{
+    margin-top: 0;
+    margin-left: 2em;
+  }
+  /*dui sivun kuvagallerin loppu*/
+
+  .small {
+    display: none;
+    }
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      border: 1px solid;
+      resize: vertical;
+      float: right;
+    }
+    
+    label {
+      width: 25%;
+      display: inline-block;
+    }
+    
+    input[type=submit] {
+      border: 1px solid;
+      cursor: pointer;
+      float: right;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .form {
+      border-radius: 4px;
+      width: 50%;
+    }
+    
+    
+    .col-25,.col-75 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+    
+    .sukupolvi{
+      float: right;
+      width: 25%;
+      margin-top: 6px;
+    }
+    .radio {
+      margin-top: 6px;
+      width: 25%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    @media all and (max-width: 600px) {
+        .small {
+          display: grid;
+          grid-template-rows: auto auto auto;
+          grid-template-columns: 50% 50%;
+          grid-template-areas:
+            "rightbar header"
+            "content content"
+            "footer footer"
+        }
+      
+        .header{
+          grid-area: header;
+          background-color: #daefd1;
+          margin-right: 2%;
+          margin-top: 2%;
+      
+        }
+
+        .navbar{
+            width: 40%;
+            flex-direction: column;
+            height: 11%;
+            text-align: left;
+            margin-left: 1%;
+          }
+        .rightbar{
+          grid-area: rightbar;
+          background-color: #de87c2;
+          margin-left: 12%;
+          margin-top: 0%;
+          width: 40%;
+
+     
+        }
+
+        
+        .kuvatLaatikko{
+            grid-template-columns: repeat(1, 1fr);
+          
+          
+        }
+        ul.toka{
+          list-style-type: circle;
+          padding-left: 2%;
+        }
+
+        .content{
+            margin-top: 15%;
+        }
+        .content_small{
+          grid-area: content;
+          
+      
+        }
+        .footer{
+          background-color: #de87c2;
+          grid-area: footer;
+          height: 1em;
+          padding:0.4em 0em 0.4em 0em;
+          bottom: 0%;
+          left: 0%;
+          margin-bottom: 1em;
+        }
+       
+      }
+      @media print {
+        body {
+          font-family: "Times New Roman", sans-serif;
+        }
+        .navbar, .footer, .rightbar_large, .header, .rightbar,.large {
+        display: none;
+        }
+      }
+      
+      
+      
+      
+      
+  
+  
+  
